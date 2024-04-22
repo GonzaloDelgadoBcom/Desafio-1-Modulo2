@@ -1,14 +1,28 @@
-nav {
+.sidebar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    height: 100%;
+    width: 20%;
+    background-color: #851313;
+    height: 100vh;
     position: fixed;
-    overflow: auto
+    overflow: auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    
 }
-
-li {
-
-}
+.cards{
+    display: flex;
+    }
+    .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: solid 1px;
+    margin: 5px;
+    padding: 5px;
+    }
+    .card-body {
+        flex-grow: 1;
+    }
+    
